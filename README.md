@@ -15,7 +15,7 @@ modules/: Contains reusable Terraform modules for both AWS and Google Cloud.
 aws/, google/: Each cloud provider has subfolders for different types of modules (e.g., network, compute, S3, Athena, IAM user for AWS; network, compute, BigQuery, GCS, IAM user for Google).
 shared/: Contains shared configurations such as provider setup, version constraints, and backend configuration.
 
-```bash
+```css
 terraform-iac-repo/
 ├── README.md
 ├── environments/
